@@ -1,0 +1,6 @@
+//Compilation code
+gcc .\main.c -o output.exe -lcrypto -lz
+
+//Running code
+.\output.exe .\image.png encryptedOutput .\key
+
